@@ -31,3 +31,8 @@ Input example: "Green, Green, Red, Amber, Red"
 **Edge Cases**
 
 - results are always capitalized
+
+# Technology
+
+- Python 3.8
+- Pytest 5.4
