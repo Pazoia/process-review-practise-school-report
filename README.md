@@ -10,7 +10,7 @@ Given a commma separated string of values, return the school report in the forma
 
 Input example: "Green, Green, Red, Amber, Red"
 
-> When given a "Green" score return "Green: 1"
+> ✅ - When given a "Green" score return "Green: 1"
 
 |  Input  |   Output   |
 | :-----: | :--------: |
