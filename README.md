@@ -22,7 +22,7 @@ Input example: "Green, Green, Red, Amber, Red"
 | :-----: | :--------: |
 | "Amber" | "Amber: 1" |
 
-> When given a "Red" score return "Red: 1"
+> ✅ - When given a "Red" score return "Red: 1"
 
 | Input |  Output  |
 | :---: | :------: |
