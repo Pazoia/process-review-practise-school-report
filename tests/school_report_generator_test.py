@@ -17,4 +17,7 @@ def test_when_given_a_Amber_Amber_score_return_Amber_2():
 
 def test_when_given_a_Red_Red_score_return_Red_2():
     assert report_generator("Red, Red") == "Red: 2"
+
+def test_when_given_mixed_grades():
+    assert report_generator("Red, Red, Green, Amber, Green") == "Green: 2\nAmber: 1\nRed: 2"
     

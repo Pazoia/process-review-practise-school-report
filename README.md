@@ -46,6 +46,12 @@ Input example: "Green, Green, Red, Amber, Red"
 | :--------: | :------: |
 | "Red, Red" | "Red: 2" |
 
+> ✅ - When given a "Red, Red, Green, Amber, Green" score return "Green: 2\nAmber: 1\nRed: 2"
+
+|              Input              |            Output            |
+| :-----------------------------: | :--------------------------: |
+| "Red, Red, Green, Amber, Green" | "Green: 2\nAmber: 1\nRed: 2" |
+
 **Edge Cases**
 
 - results are always capitalized
