@@ -3,6 +3,7 @@ def report_generator(grades_input):
     
     green_grade_counter = 0
     amber_grade_counter = 0
+    red_grade_counter = 0
 
     report = ""
 
@@ -13,8 +14,9 @@ def report_generator(grades_input):
         elif grade == "Amber":
             amber_grade_counter += 1
             report = f"Amber: {amber_grade_counter}"
-        elif grades_input == "Red":
-            return "Red: 1"
+        elif grade == "Red":
+            red_grade_counter += 1
+            report = f"Red: {red_grade_counter}"
         
         
 

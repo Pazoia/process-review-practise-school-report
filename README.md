@@ -40,7 +40,7 @@ Input example: "Green, Green, Red, Amber, Red"
 | :------------: | :--------: |
 | "Amber, Amber" | "Amber: 2" |
 
-> When given a "Red, Red" score return "Red: 2"
+> ✅ - When given a "Red, Red" score return "Red: 2"
 
 |   Input    |  Output  |
 | :--------: | :------: |
