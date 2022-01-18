@@ -34,7 +34,7 @@ Input example: "Green, Green, Red, Amber, Red"
 | :------------: | :--------: |
 | "Green, Green" | "Green: 2" |
 
-> When given a "Amber, Amber" score return "Amber: 2"
+> ✅ - When given a "Amber, Amber" score return "Amber: 2"
 
 |     Input      |   Output   |
 | :------------: | :--------: |
